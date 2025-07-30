@@ -1,19 +1,60 @@
-# COVID-19 Data Analysis and Correlation with World Happiness Report 2020
-This project explores the relationship between the spread of COVID-19 and various socio-economic factors by analyzing datasets from Johns Hopkins University and the World Happiness Report 2020.
+# 🦠 COVID-19 Data Analysis & 🌍 World Happiness Report 2020 📊
 
-**Project Overview:**
-Objective: To examine how social factors such as GDP, health expectancy, and social support correlate with the cumulative number of confirmed COVID-19 cases per day in each country.​
+This project explores the relationship between the global spread of COVID-19 and key socio-economic indicators using datasets from **Johns Hopkins University** and the **World Happiness Report 2020**. The goal is to understand how factors like GDP, social support, and health expectancy correlate with COVID-19 case trends across countries.
 
-**Datasets Used:**
-1 COVID-19 Dataset: Provided by Johns Hopkins University, containing daily cumulative confirmed cases for each country.​
-2 World Happiness Report 2020: Includes data on social factors like GDP per capita, healthy life expectancy, and social support.​
+---
 
-**Key Features:**
-1 Data Integration: Combines COVID-19 case data with socio-economic indicators from the World Happiness Report to facilitate comprehensive analysis.​
-2 Correlation Analysis: Investigates potential relationships between the severity of COVID-19 outbreaks and factors such as GDP per capita, health expectancy, and levels of social support.​
-3 Visualization: Utilizes Python libraries to create visual representations that illustrate trends and correlations within the data.​
+## 🧠 Project Overview
 
-**Technologies Used:**
-1 Python: For data processing and analysis.​
-2 Pandas & NumPy: For efficient data manipulation and numerical computations.​
-3 Matplotlib & Seaborn: For creating insightful visualizations to represent data trends and correlations
+| 🔍 Objective                                                                 |
+|------------------------------------------------------------------------------|
+| To examine how socio-economic factors (GDP, health expectancy, social support) correlate with the cumulative number of confirmed COVID-19 cases across countries. |
+
+---
+
+## 📂 Datasets Used
+
+| Dataset                            | Description                                                                                      |
+|-----------------------------------|--------------------------------------------------------------------------------------------------|
+| 🧾 **COVID-19 Dataset**            | Daily confirmed case data by country from Johns Hopkins University.                             |
+| 😊 **World Happiness Report 2020** | Data on GDP per capita, healthy life expectancy, and social support for each country.           |
+
+---
+
+## 🚀 Key Features
+
+- 🔗 **Data Integration**: Merges COVID-19 case data with socio-economic indicators to create a rich analysis dataset.
+- 📈 **Correlation Analysis**: Evaluates how the spread of COVID-19 relates to:
+  - 💰 GDP per capita
+  - ❤️ Social support
+  - 🏥 Healthy life expectancy
+- 📊 **Visual Insights**: Uses compelling graphs and heatmaps to show patterns and relationships across countries.
+
+---
+
+## 🛠️ Technologies Used
+
+| 🧰 Tool/Library   | 💡 Purpose                                      |
+|------------------|-------------------------------------------------|
+| 🐍 **Python**     | Core language for scripting and analysis        |
+| 🐼 **Pandas**     | Data manipulation and merging                   |
+| 🔢 **NumPy**      | Numerical computations                          |
+| 📊 **Matplotlib** | Custom visualizations and trend plotting        |
+| 🌈 **Seaborn**    | Enhanced statistical data visualization         |
+
+---
+
+## 📌 Visualization
+
+- GDP vs. COVID-19 confirmed cases scatterplot  
+- Heatmaps showing correlation coefficients  
+- Line plots of case counts with happiness index overlays
+
+---
+
+## 💡 Insights Gained
+
+> “We found potential negative correlations between social support and COVID-19 cases, suggesting that countries with stronger social infrastructure experienced slightly slower case growth. GDP per capita also showed weak trends, while healthy life expectancy was more closely tied to lower case counts.”
+
+---
+
